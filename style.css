@@ -1,0 +1,29 @@
+/* Cores */
+:root {
+    --cinza-100: #E2E4E9;
+    --cinza-200: #C0C4CE;
+    --cinza-300: #878EA1;
+    --cinza-400: #292C34;
+    --cinza-500: #16181D;
+    --cinza-600: #0D0E11;
+    --vermelho: #E3646E;
+    --roxo: #BB72E9;
+    --azul: #3996DB;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cinza-500);
+    font-family: 'Maben Pro', sans-serif;
+    color: var(--cinza-200);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
