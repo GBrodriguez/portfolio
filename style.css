@@ -27,3 +27,99 @@ img {
     display: block;
     max-width: 100%;
 }
+
+.intro {
+    position: relative;
+    min-height: 750px;
+    padding: 120px 16px 160px;
+    background-image: url("assets/bg-intro.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.avatar {
+    position: relative;
+    width: 96px;
+    height: 96px;
+    margin: 8px auto 64px;
+    border: 2px solid var(--vermelho);
+    border-radius: 50%;
+    padding: 2.4px;
+}
+
+.avatar-foto {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avatar-icone {
+    position: absolute;
+    right: -6px;
+    bottom: -6px;
+    width: 32px;
+}
+
+.intro-saudacao {
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.destaque {
+    color: var(--vermelho);
+}
+
+.intro-titulo {
+    font-family: 'Asap', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.2;
+    color: var(--cinza-100);
+    margin-bottom: 20px;
+}
+
+.intro-texto {
+    max-width: 680px;
+    margin: 0 auto 80px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: var(--cinza-300);
+}
+
+.tags {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.tag {
+    display: flex
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background-color: var(--cinza-400);
+    border-radius: 999px;
+    font: size 16px;
+    line-height: 1.4;
+}
+
+.tag img {
+    width: 24px;
+}
+
+.seta-baixo{
+    position: absolute;
+    left: 50%;
+    bottom: 57px;
+    transform: translateX(-50%);
+}
+
+.seta-baixo img {
+    width: 32px;
+}
