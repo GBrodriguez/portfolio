@@ -19,7 +19,7 @@
 
 body {
     background-color: var(--cinza-500);
-    font-family: 'Maben Pro', sans-serif;
+    font-family: 'Maven Pro', sans-serif;
     color: var(--cinza-200);
 }
 
@@ -99,13 +99,13 @@ img {
 }
 
 .tag {
-    display: flex
+    display: flex;
     align-items: center;
     gap: 8px;
     padding: 8px 16px;
     background-color: var(--cinza-400);
     border-radius: 999px;
-    font: size 16px;
+    font-size: 16px;
     line-height: 1.4;
 }
 
